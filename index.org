@@ -1,0 +1,56 @@
+#+Title: Martis Blog
+
+#+Author:Martynas Drobulis
+
+* Your own personal Cloud
+
+I've was captivated by the idea of hosting my own cloud...
+You know, when you wana share or store files while google or dropbox are not included.
+
+While learining tricks of Emacs and Org-mode I've heard a 
+speaker mention ownCloud. Some time later I was thinking  
+how would I host a silent server so that i could sleep next to it.
+Raspberry PI was a great idea. 
+
+- [X] Sleep friendly hosting - Fanless Raspberry PI
+
+Just one problem. No external keyboard i could connect to PI.
+To my releaf - Raspberrian OS comes with ssh enabled by default  
+
+- [X] Plug a network cabel,
+- [X] launch PuTTy, =Yes I use M$ Windows=
+- [X] ssh connect.
+
+default logins are  pi:raspberry
+
+Next up - service installation and configuration.
+
+- [X] :# apt-get install ownCloud
+- [X] http://<pi IP Address>/ownCloud
+
+You get a configuration page where you get to setup your 
+
+- Admin logins
+- Storage dir
+- Mysql server connection credencials
+
+Using 8Gb SD card as default storage is a bad idea.
+
+Portable Maxtor 1TB HDD for $59 plugs right in to Rasberry with no extra power required.
+FYI - PI reboots on contact with this power hog. So be sure to =$sudo halt= the device before 
+plugging in a 1TB memory extention.
+
+Next mounting the drive...
+
+
+
+
+
+
+
+
+
+
+
+
+
